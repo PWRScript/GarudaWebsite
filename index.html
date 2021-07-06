@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="static/favicon.ico">
     <link rel="icon" sizes="16x16 32x32 64x64" href="static/favicon.ico">
     <link rel="icon" type="image/png" sizes="196x196" href="static/favicon-192.png">
@@ -29,6 +30,20 @@
         body, html {
             height: 100%;
         }
+        /* Style buttons */
+    .btn {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      cursor: pointer;
+      font-size: 20px;
+    }
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             max-width: 800px;
@@ -127,6 +142,7 @@
         <p> -> Optimizações que melhoram a utilização da Memória RAM/CPU/Disco Rígido (tornando o sistema mais responsivo)</p>
         <p> -> Troca rápida de kernels e a sua instalação padrão tem um kernel muito optimizado para performace</p>
         <p> -> Sistema de Backups/Restauração instantâneo usando BTRFS e possiblidade de restaurar o sistema no arranque (GRUB), sem necessitar do disco de instalação</p>
+        <a href="https://garudalinux.org/downloads.html"><button class="btn"><i class="fa fa-download"></i>Transferir Garuda Linux</button></a>
     </div>
 </body>
 </html>
